@@ -1,4 +1,4 @@
-# Handwriting & Signature Verification
+ # Handwriting & Signature Verification
 
 
 This project aims to provide handwriting and signature verification using deep learning techniques. It leverages a Siamese Network for signature verification and a Convolutional Neural Network (CNN) for handwriting 
