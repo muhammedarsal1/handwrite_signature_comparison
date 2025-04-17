@@ -5,16 +5,16 @@ This project aims to provide handwriting and signature verification using deep l
 classification. The project includes a Streamlit interface for users to interact with the models.
 
 
-##Features
+## Features
 Signature Verification: Compare two signature images to verify if they belong to the same person using a Siamese network.
 
-###Handwriting Classification: 
+### Handwriting Classification: 
 Classify handwriting samples into various styles using a CNN model.
 
-###Streamlit Web Interface: 
+### Streamlit Web Interface: 
 A simple and intuitive web interface to test the models with image uploads.
 
-##Project Structure
+## Project Structure
 
 bash
 
@@ -51,15 +51,15 @@ Clone the repository to your local machine.
 
 Install required Python libraries using the requirements.txt file.
 
-###Run the Streamlit App:
+### Run the Streamlit App:
 
 Launch the Streamlit web app for testing the models and verifying signatures or handwriting.
 
-##Models
+## Models
 
 Siamese Network: A specialized neural network used to compare two signature images and determine if they match.
 
 CNN for Handwriting: A Convolutional Neural Network to classify different handwriting styles.
 
-##License
+## License
 This project is licensed under the MIT License.
