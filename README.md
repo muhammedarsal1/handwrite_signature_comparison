@@ -14,40 +14,11 @@ Classify handwriting samples into various styles using a CNN model.
 ### Streamlit Web Interface: 
 A simple and intuitive web interface to test the models with image uploads.
 
-## Project Structure
-
-bash
-
-Copy
-
-Edit
-
-SignatureHandwriteVerification/
-│
-├── data/                  # Training and testing datasets
-│   ├── Signature/         # Signature images (original & forged)
-│   ├── HandWrite/         # Handwriting images (various styles)
-│
-├── models/                # Trained model files
-│   ├── siamese_model.h5   # Model for signature verification
-│   ├── cnn_model.h5       # Model for handwriting classification
-│
-├── scripts/               # Python scripts for training and application
-│   ├── preprocess.py      # Data preprocessing logic
-│   ├── train_siamese.py   # Script to train the Siamese model
-│   ├── train_cnn.py       # Script to train the CNN model
-│   ├── app.py             # Streamlit app interface
-│
-├── requirements.txt       # List of project dependencies
-├── .gitignore             # Files to be ignored by Git
-└── README.md              # Project documentation
-Installation
-
-Clone the repository:
+### Clone the repository:
 
 Clone the repository to your local machine.
 
-###Install dependencies:
+### Install dependencies:
 
 Install required Python libraries using the requirements.txt file.
 
